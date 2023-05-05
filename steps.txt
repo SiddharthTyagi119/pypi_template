@@ -1,0 +1,11 @@
+1-create gitignore , README.md file  and add license.
+2-create template file and add requirements
+3- create pyproject.toml , setup.cfg and setup file.
+4-create init_setup.sh. To run this command- bash init_setup.sh 
+5- for ci -create ci.yml file under workflows.
+6- to test -create tox.ini.
+steps for ci
+a-build the steps under actions in github
+b-locally- run the command tox on terminal
+7- create test_int.py and test_unit.py file under test/integration and test/unit resp.
+and run-pytest -v and tox
