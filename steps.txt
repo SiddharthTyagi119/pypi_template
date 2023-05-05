@@ -18,3 +18,4 @@ make changes in requirements
 change REPO_NAME under setup.cfg
 make changes in setup.py
 uncomment the ci.yml file
+and the src folder will be created after running template.py file
