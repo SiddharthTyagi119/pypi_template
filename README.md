@@ -1,1 +1,1 @@
- # ipynb renderer python package
+ # Python package template

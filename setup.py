@@ -3,11 +3,11 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
-__version__ = "0.0.3"
+__version__ = "0.0.0" # update as per your need
 
-REPO_NAME = "IPYNB_RENDERER"
-AUTHOR_USER_NAME = "Siddharth Tyagi"
-SRC_REPO = "IPYNB_RENDERER"
+REPO_NAME = "PYPI_TEMPLATE"
+AUTHOR_USER_NAME = "SIDDHARTH"
+SRC_REPO = "PYPI_TEMPLATE"
 AUTHOR_EMAIL = "sidtyagi05@gmail.com"
 
 setuptools.setup(
@@ -24,5 +24,4 @@ setuptools.setup(
     },
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src")
-
 )
