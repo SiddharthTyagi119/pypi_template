@@ -9,3 +9,12 @@ a-build the steps under actions in github
 b-locally- run the command tox on terminal
 7- create test_int.py and test_unit.py file under test/integration and test/unit resp.
 and run-pytest -v and tox
+
+
+
+Note- to use this template 
+make changes in readme.md file and run template.py
+make changes in requirements
+change REPO_NAME under setup.cfg
+make changes in setup.py
+uncomment the ci.yml file
